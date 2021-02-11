@@ -1,6 +1,6 @@
 import React from 'react';
 import { useScore } from '../contexts/ScoreContext';
-import { StyledLink, StyledLinkButton } from '../styled/Navbar';
+import { StyledLink } from '../styled/Navbar';
 export default function GameOver({ history }) {
     const [score] = useScore();
 
@@ -11,8 +11,8 @@ export default function GameOver({ history }) {
         <div>
             <h1>Game Over</h1>
             <p>{score}</p>
-            <StyledLinkButton to="/">Go Home</StyledLinkButton>
-            <StyledLinkButton to="/game">Play Again</StyledLinkButton>
+            <StyledLink to="/">Go Home</StyledLink>
+            <StyledLink to="/game">Play Again</StyledLink>
         </div>
     );
 }
