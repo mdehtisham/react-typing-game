@@ -9,9 +9,18 @@ export const StyledTitle = styled.h1`
     font-weight: 300;
     text-align: center;
     margin-bottom: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 `;
 
 export const Strong = styled.strong`
     font-weight: bold;
 `;
+
+export const StyledH3 = styled.h1`
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+`;
+

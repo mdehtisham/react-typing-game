@@ -13,16 +13,16 @@ export default function Navbar() {
         <StyledNavbar>
             <StyledNavBrand className="nav__brand">
                 <Link to="/">
-                    Learn.Build.<Accent>Type.</Accent>
+                    <Accent>TypingGame</Accent>
                 </Link>
             </StyledNavBrand>
             <StyledNavItems>
                 <li>
                     <StyledLink to="/">Home</StyledLink>
                 </li>
-                <li>
+                {/* <li>
                     <StyledLink to="/highScores">High Scores</StyledLink>
-                </li>
+                </li> */}
             </StyledNavItems>
         </StyledNavbar>
     );
